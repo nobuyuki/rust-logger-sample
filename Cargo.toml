@@ -1,0 +1,12 @@
+[package]
+name	= "rust-logger-sample"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "test"
+path = "src/test_main.rs"
+
+[dependencies]
+log	= { version = "*", features = ["std"] }
